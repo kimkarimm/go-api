@@ -23,4 +23,4 @@ RUN apk add -U git go && \
 ENTRYPOINT /gopath/bin/app
 
 #Our app runs on port 8080. Expose it!
-EXPOSE 8080
+EXPOSE 8084
